@@ -1,0 +1,19 @@
+{
+  "name": "wk1-day1-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server_task1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soryaek/WU_Bootcamp-wk1-day1-homework.git"
+  },
+  "author": "Sorya Ek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soryaek/WU_Bootcamp-wk1-day1-homework/issues"
+  },
+  "homepage": "https://github.com/soryaek/WU_Bootcamp-wk1-day1-homework#readme"
+}
