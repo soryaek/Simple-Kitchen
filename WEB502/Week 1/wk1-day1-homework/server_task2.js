@@ -7,7 +7,6 @@ const fs = require('fs');  //file system: READ, CREATE, Delete, rename files..et
 
 const server = http.createServer((req, res) => {
     console.log(`Request for ${req.url} by method ${req.method}`);
-
     if (req.method === 'GET') {
         let fileUrl = req.url;
         if (fileUrl === '/' || fileUrl === '/home') {
@@ -17,7 +16,7 @@ const server = http.createServer((req, res) => {
         }else if (fileUrl === '/contact') {
             fileUrl = '/contact.html';
         }
-
+        
         const filePath = path.resolve('./public' + fileUrl);
         const fileExt = path.extname(filePath); //get file extension
 
