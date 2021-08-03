@@ -1,0 +1,30 @@
+extends layout
+
+block content
+    head
+        link(rel='preconnect' href='https://fonts.gstatic.com')
+        link(href='https://fonts.googleapis.com/css2?family=Sacramento&display=swap' rel='stylesheet')
+        link(rel='StyleSheet' href='css/styles.css' type='text/css')
+        meta(charset='utf-8')
+    body
+        header
+            nav
+                ul
+                    li
+                        a(href='/') Home
+                    li |
+                    li
+                        a(href='#') Blog
+                    li
+                        a.register(href='/register') Register
+        main
+            section#intro-text
+                span Simple Kitchen
+                h3
+                    | Simple &amp; Comforting 
+                    br
+                    |             Recipes All Year Round
+            section#intro-thank
+                h3 Thank you for your registration!
+        footer
+            | &copy; Copyright 2021
